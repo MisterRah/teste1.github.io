@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de 10 Perguntas</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Container centralizado */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header .logo h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seção do Quiz */
+        .quiz-section {
+            padding: 60px 0;
+            background: #f4f4f4;
+        }
+
+        .quiz-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .quiz-section .question {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-section .question p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .quiz-section .question label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .quiz-section .btn {
+            display: inline;
+            width: 200px;
+            margin: 0 auto;
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+        }
+
+        .quiz-section .btn:hover {
+            background: #0056b3;
+        }
+
+        li {
+            text-align: center;
+            float: left;
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        label {
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body style="background: url('fundo.jpg')">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Quiz</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container quiz-section">
+        <h2>Quiz sobre Kevyn levi</h2>
+        <form id="quiz-form-1" class="quiz-form">
+            <div class="question">
+                <img style="display: block; margin:auto" src="600400.png">
+                <p>1) Kevyn dá ré no quibe?</p>
+                <label><input type="radio" name="q1" value="a"> A) Não, ele é macho</label><br>
+                <label><input type="radio" name="q1" value="b"> B) Não, porque não</label><br>
+                <label><input type="radio" name="q1" value="c"> C) CLARO, OBVIO, SEM DUVIDA....</label><br>
+                <label><input type="radio" name="q1" value="d"> D) System.out.println(" Quem entendeu, entendeu.");</label>
+            </div>
+            <button type="submit" class="btn">Responder</button>
+            <br><br>
+        </form>
+        <form id="quiz-form-2" class="quiz-form">
+            <div class="question">
+                <img style="display: block; margin:auto" src="600400.png">
+                <p>2) Qual a Capital do Brasil?</p>
+                <label><input type="radio" name="q2" value="a"> A) São Paulo</label><br>
+                <label><input type="radio" name="q2" value="b"> B) Rio de Janeiro</label><br>
+                <label><input type="radio" name="q2" value="c"> C) Brasília</label><br>
+                <label><input type="radio" name="q2" value="d"> D) Salvador</label>
+            </div>
+            <button type="submit" class="btn">Responder</button>
+            <br>
+            <br>
+        </form>
+        <form id="quiz-form-3" class="quiz-form">
+            <div class="question">
+                <img style="display: block; margin:auto" src="600400.png">
+                <p>3) Qual a Capital do Brasil?</p>
+                <label><input type="radio" name="q3" value="a"> A) São Paulo</label><br>
+                <label><input type="radio" name="q3" value="b"> B) Rio de Janeiro</label><br>
+                <label><input type="radio" name="q3" value="c"> C) Brasília</label><br>
+                <label><input type="radio" name="q3" value="d"> D) Salvador</label>
+            </div>
+            <button type="submit" class="btn">Responder</button>
+            <br>
+            <br>
+        </form>
+        <form id="quiz-form-4" class="quiz-form">
+            <div class="question">
+                <img style="display: block; margin:auto" src="600400.png">
+                <p>4) Qual a Capital do Brasil?</p>
+                <label><input type="radio" name="q4" value="a"> A) São Paulo</label><br>
+                <label><input type="radio" name="q4" value="b"> B) Rio de Janeiro</label><br>
+                <label><input type="radio" name="q4" value="c"> C) Brasília</label><br>
+                <label><input type="radio" name="q4" value="d"> D) Salvador</label>
+            </div>
+            <button type="submit" class="btn">Responder</button>
+            <br>
+            <br>
+        </form>
+        <form id="quiz-form-5" class="quiz-form">
+            <div class="question">
+                <img style="display: block; margin:auto" src="600400.png">
+                <p>5) Qual a Capital do Brasil?</p>
+                <label><input type="radio" name="q5" value="a"> A) São Paulo</label><br>
+                <label><input type="radio" name="q5" value="b"> B) Rio de Janeiro</label><br>
+                <label><input type="radio" name="q5" value="c"> C) Brasília</label><br>
+                <label><input type="radio" name="q5" value="d"> D) Salvador</label>
+            </div>
+            <button type="submit" class="btn">Responder</button>
+            <br>
+            <br>
+        </form>
+    </section>
+    <script src="functions.js"></script>
+</body>
+</html>
